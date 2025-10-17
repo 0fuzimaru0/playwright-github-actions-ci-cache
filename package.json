@@ -1,0 +1,15 @@
+{
+  "name": "playwright-github-actions-ci",
+  "version": "1.0.0",
+  "description": "Minimal CI setup for running Playwright tests on GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "keywords": ["playwright", "github-actions", "ci", "testing"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
